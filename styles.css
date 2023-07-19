@@ -1,0 +1,42 @@
+/* Estilos para el header y el menú */
+header {
+  background-color: gold;
+  /* Estilos adicionales para el header */
+}
+
+nav {
+  background-color: white;
+  /* Estilos adicionales para el menú */
+}
+
+/* Estilos para el carrusel */
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Estilos adicionales para el texto del carrusel */
+}
+
+/* Estilos para el álbum de imágenes */
+.album {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.imagen {
+  position: relative;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.imagen .texto {
+  position: absolute;
+  bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Estilos adicionales para el texto del álbum */
+}
