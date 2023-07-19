@@ -1,42 +1,27 @@
-/* Estilos para el header y el menú */
-header {
-  background-color: gold;
-  /* Estilos adicionales para el header */
+/* Colores personalizados */
+.text-gold {
+    color: gold;
 }
 
-nav {
-  background-color: white;
-  /* Estilos adicionales para el menú */
+.bg-gold {
+    background-color: gold;
 }
 
-/* Estilos para el carrusel */
+/* Estilo para todas las imágenes del álbum */
+.img-fluid {
+    height: 300px; /* Tamaño deseado */
+    object-fit: cover; /* Para mantener la proporción y cubrir todo el espacio */
+}
+
+/* Reducir el ancho del carousel */
+.carousel-inner {
+    max-width: 600px; /* Ajusta este valor según tus necesidades */
+    margin: 0 auto; /* Para centrar el carrusel horizontalmente */
+}
+
+/* Ajustar tamaño de las imágenes del carousel */
 .carousel-item img {
-  width: 100%;
-}
-
-.carousel-caption {
-  background-color: rgba(255, 255, 255, 0.7);
-  /* Estilos adicionales para el texto del carrusel */
-}
-
-/* Estilos para el álbum de imágenes */
-.album {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-.imagen {
-  position: relative;
-}
-
-.imagen img {
-  width: 100%;
-}
-
-.imagen .texto {
-  position: absolute;
-  bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.7);
-  /* Estilos adicionales para el texto del álbum */
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto; /* Para centrar las imágenes horizontalmente */
 }
